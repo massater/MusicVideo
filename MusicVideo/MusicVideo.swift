@@ -68,7 +68,7 @@ class Videos {
     
     init(data: JSONDictionary){
         // The Video Name
-        if let name = data["in:name"] as? JSONDictionary,
+        if let name = data["im:name"] as? JSONDictionary,
             vName = name["label"] as? String {
             self._vName = vName
         }
