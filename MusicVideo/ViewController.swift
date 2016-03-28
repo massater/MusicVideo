@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.reachabilityStatusChanged), name: "ReachabilityStatusChanged", object: nil)
-        
+       
         reachabilityStatusChanged()
         
         // Call API
