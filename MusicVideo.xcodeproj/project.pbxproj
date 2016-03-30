@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E23A63A61CA860A200206F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63A51CA860A200206F10 /* AppDelegate.swift */; };
-		E23A63A81CA860A200206F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63A71CA860A200206F10 /* ViewController.swift */; };
 		E23A63AB1CA860A200206F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23A63A91CA860A200206F10 /* Main.storyboard */; };
 		E23A63AD1CA860A200206F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23A63AC1CA860A200206F10 /* Assets.xcassets */; };
 		E23A63B01CA860A200206F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23A63AE1CA860A200206F10 /* LaunchScreen.storyboard */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		E23A63A21CA860A200206F10 /* MusicVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23A63A51CA860A200206F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E23A63A71CA860A200206F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E23A63AA1CA860A200206F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E23A63AC1CA860A200206F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E23A63AF1CA860A200206F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 		E23A63D41CA866B700206F10 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E23A63A71CA860A200206F10 /* ViewController.swift */,
 				E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */,
 				E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */,
 			);
@@ -327,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23A63D81CA86B7A00206F10 /* APIManager.swift in Sources */,
-				E23A63A81CA860A200206F10 /* ViewController.swift in Sources */,
 				E23A63DD1CA882CE00206F10 /* MusicVideo.swift in Sources */,
 				E23A63E61CAB99A000206F10 /* MusicVideoTableViewCell.swift in Sources */,
 				E23A63A61CA860A200206F10 /* AppDelegate.swift in Sources */,
