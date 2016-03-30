@@ -19,6 +19,7 @@
 		E23A63E21CA8A66000206F10 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E11CA8A66000206F10 /* Reachability.m */; };
 		E23A63E41CAA4CBD00206F10 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */; };
 		E23A63E61CAB99A000206F10 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */; };
+		E23A63E81CAC8BD700206F10 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E71CAC8BD700206F10 /* MusicVideoDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E23A63E11CA8A66000206F10 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 		E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
+		E23A63E71CAC8BD700206F10 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		E23A63D41CA866B700206F10 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E23A63E71CAC8BD700206F10 /* MusicVideoDetailVC.swift */,
 				E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */,
 				E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */,
 			);
@@ -330,6 +333,7 @@
 				E23A63E21CA8A66000206F10 /* Reachability.m in Sources */,
 				E23A63DB1CA8818C00206F10 /* Constants.swift in Sources */,
 				E23A63E41CAA4CBD00206F10 /* MusicVideoTVC.swift in Sources */,
+				E23A63E81CAC8BD700206F10 /* MusicVideoDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -95,6 +95,9 @@ class MusicVideoTVC: UITableViewController {
     }
     deinit {
         NSNotificationCenter.defaultCenter().removeObserver(self, name: "ReachabilityStatusChanged", object: nil)
+        
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIContentSizeCategoryDidChangeNotification, object: nil)
+        
     }
     
 
