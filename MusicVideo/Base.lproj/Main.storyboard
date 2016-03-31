@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="2227" y="671"/>
         </scene>
-        <!--Table View Controller-->
+        <!--SettingsTVC-->
         <scene sceneID="PZs-8A-g8C">
             <objects>
-                <tableViewController id="BBo-Fg-gNn" sceneMemberID="viewController">
+                <tableViewController id="BBo-Fg-gNn" customClass="SettingsTVC" customModule="MusicVideo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="QiM-S9-8Vz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,6 +162,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6HY-wz-ZmD">
+                                                    <rect key="frame" x="535" y="31" width="51" height="31"/>
+                                                </switch>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Image Quality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBe-ze-Eqi">
                                                     <rect key="frame" x="8" y="26" width="255" height="41"/>
                                                     <constraints>
@@ -171,9 +174,6 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6HY-wz-ZmD">
-                                                    <rect key="frame" x="535" y="31" width="51" height="31"/>
-                                                </switch>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="ZBe-ze-Eqi" firstAttribute="top" secondItem="mPR-Zz-wn0" secondAttribute="topMargin" constant="18" id="FED-ST-pbZ"/>
@@ -234,6 +234,15 @@
                     </tableView>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="APICount" destination="GRf-8N-Yxs" id="gs5-eO-x9K"/>
+                        <outlet property="aboutDisplay" destination="TTQ-IL-Ewd" id="GrO-ce-Q57"/>
+                        <outlet property="bestImageDisplay" destination="ZBe-ze-Eqi" id="wdt-xZ-0it"/>
+                        <outlet property="feedbackDisplay" destination="BnT-m8-1A9" id="2io-7f-TIR"/>
+                        <outlet property="securityDisplay" destination="168-18-4wP" id="jP0-C3-rTa"/>
+                        <outlet property="sliderCount" destination="w8R-7S-bgq" id="nJw-9k-0VE"/>
+                        <outlet property="touchID" destination="k0E-uR-Fyk" id="s49-tL-OSf"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ev9-4F-rO7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

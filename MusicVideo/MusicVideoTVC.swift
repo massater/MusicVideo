@@ -18,7 +18,7 @@ class MusicVideoTVC: UITableViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(reachabilityStatusChanged), name: "ReachabilityStatusChanged", object: nil)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(preferredFontChanged), name: UIContentSizeCategoryDidChangeNotification, object: nil)
-        reachabilityStatusChanged()
+        preferredFontChanged()
         
     }
     

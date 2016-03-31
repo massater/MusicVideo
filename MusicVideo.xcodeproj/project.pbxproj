@@ -20,6 +20,7 @@
 		E23A63E41CAA4CBD00206F10 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */; };
 		E23A63E61CAB99A000206F10 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */; };
 		E23A63E81CAC8BD700206F10 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E71CAC8BD700206F10 /* MusicVideoDetailVC.swift */; };
+		E23A63EA1CAD7B1A00206F10 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A63E91CAD7B1A00206F10 /* SettingsTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 		E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
 		E23A63E71CAC8BD700206F10 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
+		E23A63E91CAD7B1A00206F10 /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				E23A63E71CAC8BD700206F10 /* MusicVideoDetailVC.swift */,
 				E23A63E31CAA4CBD00206F10 /* MusicVideoTVC.swift */,
 				E23A63E51CAB99A000206F10 /* MusicVideoTableViewCell.swift */,
+				E23A63E91CAD7B1A00206F10 /* SettingsTVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23A63D81CA86B7A00206F10 /* APIManager.swift in Sources */,
+				E23A63EA1CAD7B1A00206F10 /* SettingsTVC.swift in Sources */,
 				E23A63DD1CA882CE00206F10 /* MusicVideo.swift in Sources */,
 				E23A63E61CAB99A000206F10 /* MusicVideoTableViewCell.swift in Sources */,
 				E23A63A61CA860A200206F10 /* AppDelegate.swift in Sources */,
