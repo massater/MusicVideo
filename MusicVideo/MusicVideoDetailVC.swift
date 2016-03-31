@@ -11,6 +11,9 @@ import UIKit
 class MusicVideoDetailVC: UIViewController {
 
     var videos : Videos!
+    
+    var security:Bool = false
+    
     @IBOutlet weak var vName: UILabel!
     @IBOutlet weak var videoImage: UIImageView!
     @IBOutlet weak var vGenre: UILabel!
@@ -21,6 +24,7 @@ class MusicVideoDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//         security = NSUserDefaults.standardUserDefaults().boolForKey("SecuritySetting")
         title = videos.vArtist
         
         vName.text = videos.vName
