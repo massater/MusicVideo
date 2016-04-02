@@ -18,7 +18,7 @@ class MusicVideoTVC: UITableViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(reachabilityStatusChanged), name: "ReachabilityStatusChanged", object: nil)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(preferredFontChanged), name: UIContentSizeCategoryDidChangeNotification, object: nil)
-        preferredFontChanged()
+       
         
     }
     
@@ -40,7 +40,7 @@ class MusicVideoTVC: UITableViewController {
     }
     
     func reachabilityStatusChanged() {
-        
+        print("ReachabilityStatusChanged")
         switch reachabilityStatus {
         case NOACCESS :
             //view.backgroundColor = UIColor.redColor()
@@ -68,13 +68,14 @@ class MusicVideoTVC: UITableViewController {
                 //        case WIFI :
                 //            view.backgroundColor = UIColor.greenColor()
                 //            //displayLabel.text = "Reachable with WiFi"
-                //            runAPI()
+                //           runAPI()
                 //        case WWAN :
                 //            view.backgroundColor = UIColor.yellowColor()
                 //            //displayLabel.text = "Reachable with Cellular"
 
             })
             default:
+                print("We have access..")
                 //view.backgroundColor = UIColor.greenColor()
                 //displayLabel.text = "Reachable with WiFi"
                 if videos.count == 0 {
@@ -89,8 +90,9 @@ class MusicVideoTVC: UITableViewController {
     
     func runAPI(){
         // Call API
+        print("Loaing API")
         let api = APIManager()
-        api.loadData("https://itunes.apple.com/us/rss/topmusicvideos/limit=200/json", completion:didLoadData)
+        api.loadData("https://itunes.apple.com/us/rss/topmusicvideos/limit=20/json", completion:didLoadData)
 
     }
     deinit {
